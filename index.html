@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Index</title>
+<style>
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+</style>
+<script>
+// Function to display a dialog box and redirect to second.html using window.open
+function redirectToSecondPage() {
+    // Display a dialog box with a message
+    alert("You will be redirected to the second page.");
+
+    // Redirect to second.html using window.open
+    window.open("second.html", "_self");
+}
+</script>
+</head>
+<body onload="redirectToSecondPage()">
+</body>
+</html>
